@@ -10,7 +10,14 @@ header{
 .logo{
     display: inline-block;
 }
-ul{
+
+header ul{
     display: inline-block;
     color: white;
+}
+header li{
+    display: none;
+}
+header ul:hover li{
+    display:list-item;
 }
