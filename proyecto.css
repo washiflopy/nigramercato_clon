@@ -1,0 +1,16 @@
+header{
+    height: 85px;
+    background: black;
+    border: whitesmoke 2px;
+    padding: 1rem;
+}
+.nigra{
+    height: 85px;
+}
+.logo{
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+    color: white;
+}
