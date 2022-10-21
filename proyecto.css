@@ -25,16 +25,23 @@ footer{
     height: 85px;
     background: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 15px 30px;
     border-top:5px solid whitesmoke ;
     
 }
-.calle {
+.calle{
     color:white;
     display: grid;
-    grid-column-start:4 ;
+    grid-column-start:5 ;
 
+    
+}
+.marca{
+    color:white;
+    display: grid;
+    grid-column-start:6 ;
+    
     
 }
 main{
