@@ -24,10 +24,17 @@ header ul:hover li{
 footer{
     height: 85px;
     background: black;
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 15px 30px;
     border-top:5px solid whitesmoke ;
+    
+}
+.calle {
+    color:white;
+    display: grid;
+    grid-column-start:4 ;
+
     
 }
 main{
