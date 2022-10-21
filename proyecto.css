@@ -1,7 +1,7 @@
 header{
     height: 85px;
     background: black;
-    border: whitesmoke 2px;
+    border-bottom:solid whitesmoke 5px;
     padding: 1rem;
 }
 .nigra{
@@ -20,4 +20,17 @@ header li{
 }
 header ul:hover li{
     display:list-item;
+}
+footer{
+    height: 85px;
+    background: black;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 30px;
+    border-top:5px solid whitesmoke ;
+    
+}
+main{
+    height: 1000px;
+    background: green;
 }
