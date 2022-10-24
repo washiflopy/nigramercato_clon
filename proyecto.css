@@ -44,7 +44,10 @@ footer{
     
     
 }
-main{
-    height: 1000px;
-    background: green;
+.primera-imagen{
+    height: 700px;
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+
 }
