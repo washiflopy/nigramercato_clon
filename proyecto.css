@@ -53,10 +53,26 @@ footer{
     width: 100%;
 
 }
+.segunda-imagen{
+    height: 500px;
+    display: block;
+    width: 100%;
+    background-image: url(./carhartt.jpg);
+
+}
 .novedades{
     height: 600px;
     width: 100%;
     background: #232323;
     border-top: 3px solid whitesmoke ;
     border-bottom:3px solid whitesmoke  ;
+    
+}
+.carhartt{
+    height: 600px;
+    width: 100%;
+    background: #232323;
+    border-top: 3px solid whitesmoke ;
+    border-bottom:3px solid whitesmoke  ;
+    
 }
