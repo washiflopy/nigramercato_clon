@@ -76,3 +76,10 @@ footer{
     border-bottom:3px solid whitesmoke  ;
     
 }
+.tercera-imagen{
+    height: 500px;
+    display: block;
+    width: 100%;
+    background-image: url(./lacoste.jpg);
+
+}
