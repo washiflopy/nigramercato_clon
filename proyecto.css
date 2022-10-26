@@ -1,8 +1,11 @@
 header{
     height: 85px;
+    width: 100%;
     background: black;
     border-bottom:solid whitesmoke 5px;
+    padding-top: 0;
     padding: 1rem;
+    position: fixed;
 }
 .nigra{
     height: 85px;
@@ -47,7 +50,13 @@ footer{
 .primera-imagen{
     height: 700px;
     display: block;
-    vertical-align: middle;
     width: 100%;
 
+}
+.novedades{
+    height: 600px;
+    width: 100%;
+    background: #232323;
+    border-top: 3px solid whitesmoke ;
+    border-bottom:3px solid whitesmoke  ;
 }
