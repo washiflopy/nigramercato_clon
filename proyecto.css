@@ -58,7 +58,30 @@ footer{
     display: block;
     width: 100%;
     background-image: url(./carhartt.jpg);
+    color: black;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-top: 0.2em;
+    
+    
+}
+.segunda-imagen p{
+    font-size: 20px;
+    
+}
+.tercera-imagen{
+    height: 500px;
+    display: block;
+    width: 100%;
+    background-image: url(./lacoste.jpg);
+    font-weight: bold;
+    padding-left: 2em;
+    padding-top: 0.2em;
 
+}
+.tercera-imagen p{
+    font-size: 20px;
+    
 }
 .novedades{
     height: 600px;
@@ -75,11 +98,14 @@ footer{
     border-top: 3px solid whitesmoke ;
     border-bottom:3px solid whitesmoke  ;
     
+    
 }
-.tercera-imagen{
-    height: 500px;
-    display: block;
-    width: 100%;
-    background-image: url(./lacoste.jpg);
+.ropa-carhartt{
+    
 
 }
+.ropa-car-2,.ropa-car-3,.ropa-car-4,.ropa-car-5{
+    height: 250px;
+    width: 300px;
+}
+
