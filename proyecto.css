@@ -1,19 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
     width: 100vw;
 }
 header{
+    padding: 1rem;
+    margin: 0;
     height: 85px;
     width: 100%;
     background: black;
     border-bottom:solid whitesmoke 5px;
     padding-top: 0;
     padding: 1rem;
-    position: fixed;
+    position: fixed ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +24,7 @@ header{
 .container-header{
     display: flex;
     justify-content: flex-start;
+    padding: 1rem;
     
 }
 
@@ -28,6 +32,7 @@ header{
 
 .sneakers{
     list-style-type: none;
+    padding: 2em;
 }
 .nigra{
     height: 85px;
@@ -70,42 +75,48 @@ footer{
     
 }
 .primera-imagen{
-    height: 700px;
-    display: block;
+    height: 800px;
     width: 100%;
 
 }
 .segunda-imagen{
-    height: 500px;
-    display: block;
+    height: 700px;
     width: 100%;
-    background-image: url(./carhartt.jpg);
+    
     background-size: cover;
     color: black;
     font-weight: bold;
-    padding-left: 2em;
-    padding-top: 0.2em;
+    
     
     
 }
-.segunda-imagen p{
-    font-size: 20px;
-    
+
+.segunda-imagen h2{
+    position: absolute;
+    color: black;
+}
+.imgcar{
+    width: 100%;
+    height: 700px;
+}
+.texcar{
+    position: absolute;
+    color: black;
 }
 .tercera-imagen{
-    height: 500px;
-    display: block;
-    width: 100%;
-    background-image: url(./lacoste.jpg);
+    
+    height: 700px;
+    width: 100vw;
+    
     font-weight: bold;
-    padding-left: 2em;
-    padding-top: 0.2em;
+ 
 
 }
 .tercera-imagen p{
     font-size: 20px;
     
 }
+
 .carhartt{
     height: 800px;
     width: 100%;
@@ -114,11 +125,12 @@ footer{
     grid-template-rows: 1fr 1fr 1fr; */
     display: flex;
     justify-content: center;
+    align-items: center;
     
     
 }
 .banner{
-    
+    padding-top: 1rem;
     color: white;
     background: #232323;
     border-top: 3px solid whitesmoke ;
@@ -137,6 +149,7 @@ footer{
 }
 
 .lacoste{
+    padding-top:1rem ;
     height: 800px;
     width: 100%;
     color: white;
@@ -155,6 +168,7 @@ footer{
     padding: 1.5rem;
 }
 .baner2{
+    padding-top: 1.5rem;
     color: white;
     background: #232323;
     border-top: 3px solid whitesmoke ;
@@ -164,17 +178,5 @@ footer{
     margin-left: 1.5rem;
 }
 
-.novedades{
-    height: 800px;
-    width: 100%;
-    color: white;
-    background: #232323;
-    border-top: 3px solid whitesmoke ;
-    border-bottom:3px solid whitesmoke  ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    
-    
-}
+  
 
